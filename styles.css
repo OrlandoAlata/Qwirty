@@ -1,0 +1,17 @@
+nav {
+  color: black;
+}
+
+body main {
+  color: blue;
+  margin: 9rem;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 3fr);
+  grid-template-rows: repeat(5, 3fr);
+  grid-row: 1 / -1;
+}
+
+ul {
+  margin: 0;
+}
